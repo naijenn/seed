@@ -3,7 +3,7 @@ var chai = require("chai"),
 	WebdriverIO = require("webdriverio");
 
 describe("First Test Suite", function () {
-	this.timeout(99999999);
+	this.timeout(0);
 	var client = {};
 	before(function (done) {
 		client = WebdriverIO.multiremote({
